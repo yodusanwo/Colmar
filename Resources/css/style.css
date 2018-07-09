@@ -1,4 +1,7 @@
 
+html{
+  font-size: 32px;
+}
 
 /*top flex container*/
 .container {
@@ -6,6 +9,7 @@
   align-items: center;
   flex-direction: column;
   width: 100%;
+  border: 0.3125rem solid orange;
 }
 
 .navcontainer {
@@ -13,8 +17,8 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  background-color: cadetblue;
-  margin-top: 1rem;
+  height: 4rem;
+  background-color: white;
 }
 
 .logo {
@@ -23,23 +27,30 @@
 
 .logo img {
   vertical-align: middle;
-  padding: 0 1rem 0 2rem;
+  padding: 0 0rem 0 0.75rem;
   height: 1.5rem;
 }
 
-
-#companyinfo {
-  color: white;
+.logo p{
   font-size: 1rem;
   font-family: Helvetica,sans-serif;
   align-self: center;
 }
 
+
+#logo1 {
+  color: black;
+}
+
+#logo2 {
+  color: grey;
+}
+
 /*navigation*/
 #nomobile {
   display: inline-block;
-  color: white;
-  margin-right: 2rem;
+  color: grey;
+  margin-right: 0.5rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -48,45 +59,249 @@
   display:none;
 }
 
-.flex-container {
-  display: flex;
-  background-color: yellow;
-  border: 10px solid black;
-  width: 100%;
-  overflow: hidden;
+.navmenu{
+  margin-right: 1rem;
 }
 
-.box {
+.onesection {
+  display: flex;
+  background-color: grey;
+  width: 100%;
+}
+
+.onesectioncolumns {
+  display: flex;
+  flex-direction: column
+  border: 20px solid black;
+}
+
+.onesectioncolumns img {
+  background-repeat: no-repeat;
+  margin: 2rem 1.5rem 2rem 1.5rem;
+  width: 60%;
+}
+
+.onesectionrightcopy {
   display: flex;
   flex-direction: column;
   justify-content:center;
-  width: 40%;
 }
+
+.headlinecopy {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  font-weight:bold;
+  border: 1px solid black;
+}
+
+.secondarycopy {
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.tertiarycopy {
+  font-size: 1.5rem;
+  border: 1px solid black;
+}
+.authorrcopy {
+  margin-top: 3rem;
+  font-size: 1.25rem;
+  border: 1px solid blue;
+  margin-bottom: 0px;
+}
+.ctacopy {
+  color:white;
+  font-weight: normal;
+  padding-top:0.5rem;
+  padding-bottom:0.5rem;
+  background-color: black;
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+.twosection {
+  display: flex;
+  background-color: white;
+  width: 100%;
+}
+
+.twosectioncolumns {
+  display: flex;
+  border: 10px solid black;
+}
+
+.twosectionleft {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+  margin-right: 1.5rem;
+  margin-bottom: 0px;
+  border: 10px solid black;
+}
+
+.image p{
+  border:1px solid black;
+  margin: 20px;
+}
+
+.image img{
+overflow: hidden;
+border:1px solid black;
+background-repeat: no-repeat;
+width: 100%;
+}
+
+
+.twosectionleftbottomcopy {
+  border: 1px solid black;
+}
+
+.copy{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.campusinfocopy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 32px;
+}
+
+/*.twosectionright {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}*/
+
+.twosectionrightrows {
+  display: flex;
+
+}
+
+.campusinformation {
+  display:flex;
+  border: 1px solid black;
+  padding: 10px;
+
+}
+
+.campusinfophoto {
+    width:35%;
+
+}
+.campusinfophoto img {
+  width:100%;
+  overflow: hidden;
+
+}
+
+.flex-container3 {
+  display: flex;
+  flex-direction: column;
+  margin: 32px;
+  width: calc(100% - 104px);
+}
+
+.campusinfocopy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 32px;
+}
+
+
+.box50{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+}
+
+.box10 {
+  display: flex;
+  justify-content:center;
+  background-color: black;
+  width: 100%;
+  height: 33%;
+  border: 10px solid blue;
+}
+
+.box19 {
+  display: flex;
+  justify-content:center;
+  background-color: brown;
+  width: 35%;
+  border: 10px solid blue;
+}
+
+.box18 {
+  display: flex;
+  justify-content:center;
+  background-color: orange;
+  width: 100%;
+  border: 10px solid blue;
+}
+
+
 
 .box7 {
   display: flex;
-  flex-direction: column;
-  width: 40%;
+  border: 10px solid black;
+  background-color: orange;
+  width:35%;
+  height: 100%;
 }
 
-.box3 {
+
+.box17 {
+  display: flex;
+
+  width:65%;
+
+}
+
+
+.box13 {
   display: flex;
   flex-direction: column;
   background-color: red;
+  width: 100%;
+  height: 200px;
 }
 
-.box5 {
+
+.box8 {
   display: flex;
   flex-direction: column;
   background-color: red;
-  margin: 32px 24px 32px 24px;
+  width: 35%;
+  height: 33%;
+  border: 10px solid pink;
 }
 
-.box6 {
+
+.box9 {
+  display: flex;
+  background-color: blue;
+  height: 100%;
+}
+
+
+
+
+.box15 {
   display: flex;
   flex-direction: column;
   background-color: red;
+  width: 35%;
 }
+
+
+
+
 
 #firstline {
   font-size: 40px;
@@ -96,10 +311,11 @@
   font-size: 20px;
 }
 
-#thridline{
+.thirdline{
   display: flex;
   font-size: 40px;
-  height: 33%;
+
+  width: 35%;
   border: 1px solid black;
 }
 
@@ -111,7 +327,19 @@
   font-size: 40px;
 }
 
+.thirdline img{
+  border: 5px solid black;
+  width: 35%;
+  height: auto;
+  background-repeat: no-repeat;
+}
 
+.sixthline {
+  border: 5px solid black;
+  width: 65%;
+  height:100%;
+  background-color: pink;
+}
 
 
 #secondline {
@@ -124,28 +352,18 @@
   background-color: red;
 }
 
-.box2 {
-  display: flex;
-  width: 60%;
-  border: 1px solid black;
-  background-image: url("../../resources/Images/banner.jpg");
-  background-size:60% 100%;
-  background-repeat: no-repeat;
-  background-color: orange;
-  align-self:auto;
-}
+
 
 #headerphoto1 {
   width: 60%;
   background-repeat: no-repeat;
-  margin: 32px 24px 32px 24px;
+  margin: 32px 24px 32px 0px;
 }
 
 #headerphoto2 {
   height: 66%;
-  height: auto;
   background-repeat: no-repeat;
-  margin: 32px 24px 32px 24px;
+
 }
 
 
@@ -157,6 +375,56 @@
 
 .firstsection {
   display:flex;
-  flex-direction: column;
   width: 60%;
+}
+
+.thirdline{
+  display: flex;
+  font-size: 40px;
+  height: 33%;
+  border: 1px solid black;
+}
+
+
+
+.row2 {
+  background-color: orange;
+  border: 10px solid lightblue;
+}
+
+/*.row3 {
+  /*display:flex;
+  flex-direction: column;
+  width: 40%;
+  border: 10px solid orange;
+}*/
+.firstrow{
+  display:flex;
+}
+
+.secondrow{
+  display:flex;
+
+}
+
+.solidbox {
+  display:flex;
+  background-color:white;
+  width:100%;
+  margin:20px;
+  overflow: hidden;
+}
+
+.itemwrap {
+  display: flex;
+  border: 1px solid black;
+  flex-wrap: wrap;
+  width: 33%;
+  height: 100%;
+}
+
+.itemwrap img {
+
+  flex-wrap: wrap;
+  width: 100%;
 }
