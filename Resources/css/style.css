@@ -193,18 +193,27 @@ width: 100%;
 
 }
 
-.flex-container3 {
-  display: flex;
-  flex-direction: column;
-  margin: 32px;
-  width: calc(100% - 104px);
-}
-
 .campusinfocopy {
   display: flex;
   flex-direction: column;
   justify-content: center;
   margin-left: 32px;
+
+}
+
+.flex-container3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border: 10px solid black;
+}
+
+.firstrow{
+  display:flex;
+  justify-content: center;
+  width: calc(100% - 48px);
+  border: 10px solid blue;
 }
 
 
@@ -392,9 +401,7 @@ width: 100%;
   width: 40%;
   border: 10px solid orange;
 }*/
-.firstrow{
-  display:flex;
-}
+
 
 .secondrow{
   display:flex;
