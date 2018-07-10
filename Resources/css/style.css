@@ -72,19 +72,38 @@ html{
   display: flex;
   background-color: grey;
   width: 100%;
+  -webkit-box-sixing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
 }
 
 .onesectioncolumns {
   display: flex;
+  height: 100%;
+  width: 60%;
+  margin-left:24px;
+  margin-right:24px;
 }
 
-.onesectioncolumns img {
+.onesectioncolumns img{
+  width: 100%;
   background-repeat: no-repeat;
-  margin: 2rem 1.5rem 2rem 1.5rem;
-  width: 60%;
+  background-size: contain;
+  overflow: hidden;
+  border: 10px solid black;
+
+
+}
+
+.headerimg img {
+  width: 100%;
+  height: 100%;
+
 }
 
 .onesectionrightcopy {
+  width: 40%;
   display: flex;
   flex-direction: column;
   justify-content:center;
@@ -148,7 +167,6 @@ html{
 .twosecimage {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
 }
 
 .twosectionleft h1 {
@@ -212,7 +230,6 @@ html{
 
 .campusinfophoto {
   width:35%;
-  border: 1px solid black;
   overflow: hidden;
 
 }
@@ -565,5 +582,9 @@ html{
 }
 
 #copyright {
+  display: flex;
+  align-items: baseline;
   padding-left: 10px;
+  margin-top: 10px;
+
 }
