@@ -4,7 +4,7 @@ html{
 }
 
 
-/*top flex container*/
+/*main flex container*/
 .container {
   display: flex;
   align-items: center;
@@ -16,6 +16,7 @@ html{
   box-sizing: border-box;
 }
 
+/*navigation container*/
 .navcontainer {
   display: flex;
   justify-content: space-between;
@@ -25,6 +26,7 @@ html{
   background-color: white;
   border: 1px solid black;
 }
+
 
 .logo {
   display: flex;
@@ -52,15 +54,17 @@ html{
 }
 
 /*navigation*/
-#nomobile {
+
+.navmenu li {
   display: inline-block;
   color: grey;
   margin-right: 0.5rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  border: 1px solid black;
 }
 
-#mobilemenu {
+.mobilemenu {
   display:none;
 }
 
@@ -72,38 +76,32 @@ html{
   display: flex;
   background-color: grey;
   width: 100%;
-  -webkit-box-sixing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+}
 
+.mobileheader{
+  display: none;
 }
 
 .onesectioncolumns {
   display: flex;
-  height: 100%;
   width: 60%;
-  margin-left:24px;
-  margin-right:24px;
-}
-
-.onesectioncolumns img{
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: contain;
-  overflow: hidden;
-  border: 10px solid black;
-
+  margin:24px;
 
 }
 
-.headerimg img {
+.onesectioncolumnsmobile{
+  display:none;
+}
+
+.onesectioncolumns img {
   width: 100%;
   height: 100%;
-
+  background-repeat: no-repeat;
+  overflow: hidden;
 }
+
 
 .onesectionrightcopy {
-  width: 40%;
   display: flex;
   flex-direction: column;
   justify-content:center;
@@ -145,6 +143,10 @@ html{
   box-sizing: border-box;
 }
 
+.twosectionmobile{
+  display:none;
+}
+
 .twosectioncolumns {
   display: flex;
 }
@@ -182,14 +184,16 @@ html{
   background-size: contain;
 }
 
-
-
 .twosectionright {
   display:flex;
   flex-direction: column;
   width:40%;
   height: 100%;
 
+}
+
+.twosectionrightmobile{
+  display: none;
 }
 
 .twosectionrightrows {
@@ -360,224 +364,10 @@ html{
   margin-top: 0px;
 }
 
-
 .foursecimage img{
   overflow: hidden;
   margin-top: 0px;
   background-repeat: no-repeat;
-  width: 100%;
-}
-
-.box50{
-  display: flex;
-  flex-direction: column;
-  justify-content:center;
-}
-
-.box10 {
-  display: flex;
-  justify-content:center;
-  background-color: black;
-  width: 100%;
-  height: 33%;
-  border: 10px solid blue;
-}
-
-.box19 {
-  display: flex;
-  justify-content:center;
-  background-color: brown;
-  width: 35%;
-  border: 10px solid blue;
-}
-
-.box18 {
-  display: flex;
-  justify-content:center;
-  background-color: orange;
-  width: 100%;
-  border: 10px solid blue;
-}
-
-
-
-.box7 {
-  display: flex;
-  border: 10px solid black;
-  background-color: orange;
-  width:35%;
-  height: 100%;
-}
-
-
-.box17 {
-  display: flex;
-
-  width:65%;
-
-}
-
-
-.box13 {
-  display: flex;
-  flex-direction: column;
-  background-color: red;
-  width: 100%;
-  height: 200px;
-}
-
-
-.box8 {
-  display: flex;
-  flex-direction: column;
-  background-color: red;
-  width: 35%;
-  height: 33%;
-  border: 10px solid pink;
-}
-
-
-.box9 {
-  display: flex;
-  background-color: blue;
-  height: 100%;
-}
-
-
-
-
-.box15 {
-  display: flex;
-  flex-direction: column;
-  background-color: red;
-  width: 35%;
-}
-
-
-
-
-
-#firstline {
-  font-size: 40px;
-}
-
-#secondline {
-  font-size: 20px;
-}
-
-.thirdline{
-  display: flex;
-  font-size: 40px;
-
-  width: 35%;
-  border: 1px solid black;
-}
-
-#fourthline{
-  font-size: 40px;
-  height: 33%;
-}
-#secondphotocaption {
-  font-size: 40px;
-}
-
-.thirdline img{
-  border: 5px solid black;
-  width: 35%;
-  height: auto;
-  background-repeat: no-repeat;
-}
-
-.sixthline {
-  border: 5px solid black;
-  width: 65%;
-  height:100%;
-  background-color: pink;
-}
-
-
-#secondline {
-  font-size: 20px;
-}
-
-.box4 {
-  height: 100px;
-  border: 1px solid black;
-  background-color: red;
-}
-
-
-
-#headerphoto1 {
-  width: 60%;
-  background-repeat: no-repeat;
-  margin: 32px 24px 32px 0px;
-}
-
-#headerphoto2 {
-  height: 66%;
-  background-repeat: no-repeat;
-
-}
-
-
-.seconsection {
-  display:flex;
-  flex-direction: column;
-  width: 60%;
-}
-
-.firstsection {
-  display:flex;
-  width: 60%;
-}
-
-.thirdline{
-  display: flex;
-  font-size: 40px;
-  height: 33%;
-  border: 1px solid black;
-}
-
-
-
-.row2 {
-  background-color: orange;
-  border: 10px solid lightblue;
-}
-
-/*.row3 {
-  /*display:flex;
-  flex-direction: column;
-  width: 40%;
-  border: 10px solid orange;
-}*/
-
-
-.secondrow{
-  display:flex;
-
-}
-
-.solidbox {
-  display:flex;
-  background-color:white;
-  width:100%;
-  margin:20px;
-  overflow: hidden;
-}
-
-.itemwrap {
-  display: flex;
-  border: 1px solid black;
-  flex-wrap: wrap;
-  width: 33%;
-  height: 100%;
-}
-
-.itemwrap img {
-
-  flex-wrap: wrap;
   width: 100%;
 }
 
@@ -586,5 +376,81 @@ html{
   align-items: baseline;
   padding-left: 10px;
   margin-top: 10px;
+
+}
+
+@media only screen and (min-width: 470px) and (max-width: 1024px) {
+#nomobile {
+  display: inline-block;
+  color: white;
+  margin-right: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+}
+
+@media only screen and (max-width: 470px) {
+
+.navcontainer {
+  display: none;
+}
+
+  .nomobile {
+      display:none;
+  }
+
+  .mobilemenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 4rem;
+    background-color: white;
+    border: 1px solid black;
+  }
+
+  #test{
+    margin-left: 24px;
+  }
+
+  #test1{
+    margin-right: 24px;
+  }
+
+.onesection{
+    display:none;}
+
+.mobileheader{display:flex;
+      flex-direction: column;}
+
+.onesectioncolumnsmobile{
+    display: flex;
+
+  }
+
+.onesectioncolumnsmobile img{
+  width: 100%;
+  height: 50%;
+  }
+
+.twosectionleft{
+  display: none;
+}
+
+.twosection {
+  display: none;
+}
+.twosectionmobile{
+  display: flex;
+  flex-direction: column;
+}
+
+.campusphotoomobile img{
+  overflow: hidden;
+  width: 100%;
+
+}
+
+
 
 }
