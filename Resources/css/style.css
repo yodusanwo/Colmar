@@ -27,6 +27,10 @@ html{
   border: 1px solid black;
 }
 
+.mobilefooter{
+  display:none;
+}
+
 
 .logo {
   display: flex;
@@ -161,8 +165,17 @@ html{
   margin-right:24px;
 }
 
+.twosectionleftvid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+  height: 100%;
+  margin-left:24px;
+  margin-right:24px;
+}
 
-.twosectionleft h2 {
+.twosectionleft,.twosectionleftvid h2 {
   font-size: 1.25rem;
 }
 
@@ -267,6 +280,10 @@ html{
   padding-bottom: 32px;
 }
 
+.threesectionmobile {
+  display: none;
+}
+
 .threesection h1{
   font-size: 48px;
   padding: 32px 0px 32px 0px;
@@ -329,6 +346,8 @@ html{
   width:100;
 }
 
+.fourthsectionmobile{display: none;}
+
 #fourheader {
   font-size: 48px;
   padding: 32px 0px 0px 0px;
@@ -341,6 +360,15 @@ html{
   display:flex;
   justify-content: center;
   width: calc(100% - 112px);
+}
+
+.foursection {
+  display: flex;
+  width: 100%;
+  margin-top: 32px;
+  -webkit-box-sixing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .foursecimage p {
@@ -379,6 +407,11 @@ html{
 
 }
 
+#copyrightmobile {
+  display: none;
+
+}
+
 @media only screen and (min-width: 470px) and (max-width: 1024px) {
 #nomobile {
   display: inline-block;
@@ -391,12 +424,20 @@ html{
 
 @media only screen and (max-width: 470px) {
 
-.navcontainer {
-  display: none;
-}
-
   .nomobile {
       display:none;
+  }
+
+  #nomobile{
+    display: none;
+  }
+
+  #copyright{display: none;}
+
+  #copyrightmobile {
+    display: flex;
+      border: 1px solid black;
+
   }
 
   .mobilemenu {
@@ -451,6 +492,50 @@ html{
 
 }
 
+.threesection {display: none;}
 
+.threesectionmobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border: 10px solid black;
+
+}
+
+.threesectionmobile h1{
+  font-size: 48px;
+  width: 100%;
+  font-weight:bold;
+  border: 1px solid black;
+}
+
+.threesectionmobile p{
+  font-size: 32px;
+  width: 100%;
+  margin: 50px;
+  font-weight:bold;
+  border: 1px solid black;
+}
+
+.fourthsectionmobile{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.fourthsection{display: none;}
+
+.mobilefooter {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-top: 24px;
+}
+
+.navcontainer {display:none;}
 
 }
