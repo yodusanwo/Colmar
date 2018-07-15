@@ -88,9 +88,8 @@ html{
 
 .onesectioncolumns {
   display: flex;
-  width: 60%;
+  width:60%;
   margin:24px;
-
 }
 
 .onesectioncolumnsmobile{
@@ -412,7 +411,7 @@ html{
 
 }
 
-@media only screen and (min-width: 470px) and (max-width: 1024px) {
+@media only screen and (min-width: 470px) and (max-width: 895px) {
 #nomobile {
   display: inline-block;
   color: white;
@@ -420,6 +419,34 @@ html{
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+
+.threesection {display: none;}
+
+.threesectionmobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border: 10px solid black;
+
+}
+
+.threesectionmobile h1{
+  font-size: 48px;
+  width: 100%;
+  font-weight:bold;
+  border: 1px solid black;
+}
+
+.threesectionmobile p{
+  font-size: 32px;
+  width: 100%;
+  margin: 50px;
+  font-weight:bold;
+  border: 1px solid black;
+}
+
+
 }
 
 @media only screen and (max-width: 470px) {
@@ -462,16 +489,28 @@ html{
     display:none;}
 
 .mobileheader{display:flex;
-      flex-direction: column;}
+      flex-direction: column;
+      margin-left: 16px;
+      margin-right:16px;
+      margin-bottom: 32px;
+}
 
+.headlinecopy{
+    margin-top: 32px;
+}
+
+.ctacopy{
+  /*margin-bottom: 32px;*/
+  background-color: grey;
+}
 .onesectioncolumnsmobile{
     display: flex;
-
   }
 
 .onesectioncolumnsmobile img{
   width: 100%;
   height: 50%;
+
   }
 
 .twosectionleft{
@@ -484,30 +523,59 @@ html{
 .twosectionmobile{
   display: flex;
   flex-direction: column;
+  margin-top: 16px;;
+  background-color: lightblue;
 }
 
+.twosectioncolumns{
+  margin-right:16px;
+  margin-left:16px;
+  margin-top: 16px;
+  margin-bottom: -32px
+
+}
+
+.campusphotomobile{
+
+}
 .campusphotoomobile img{
   overflow: hidden;
   width: 100%;
-
 }
 
+.campusinfocopy{
+  margin-top: 32px;
+  margin-bottom: 64px;
+}
 .threesection {display: none;}
+
+.threesectionmob{
+  display:flex;
+  width:100%;
+  background-color: lightgrey;
+}
 
 .threesectionmobile {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  margin-top: 16px;
+  margin-left: 16px;
+  margin-right: 16px;
   width: 100%;
-  border: 10px solid black;
-
 }
 
 .threesectionmobile h1{
-  font-size: 48px;
   width: 100%;
+  font-size: 32px;
   font-weight:bold;
   border: 1px solid black;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  background-color: grey;
+  margin-top: 8px;
+  margin-bottom:8px;
+
+
 }
 
 .threesectionmobile p{
@@ -527,13 +595,24 @@ html{
 
 .fourthsection{display: none;}
 
+#fourheader{
+  margin-bottom: 16px;
+}
+
 .mobilefooter {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   border: 1px solid black;
+  margin-left:16px;
+  margin-right:16px;
   padding-top: 16px;
   padding-bottom: 16px;
   margin-top: 24px;
+}
+
+.mobilefooter p{
+  padding-top:16px;
+  padding-bottom: 16px;
 }
 
 .navcontainer {display:none;}
