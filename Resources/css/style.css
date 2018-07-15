@@ -228,6 +228,7 @@ html{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 100%;
 }
 
 .campusinfocopy p {
@@ -543,9 +544,10 @@ html{
   width: 100%;
 }
 
-.campusinfocopy{
+.campusinfocopy {
   margin-top: 32px;
   margin-bottom: 64px;
+  width: 100%;
 }
 .threesection {display: none;}
 
