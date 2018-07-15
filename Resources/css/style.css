@@ -1,3 +1,7 @@
+a{
+  text-decoration: none;
+}
+
 
 /*main flex container*/
 .container {
@@ -8,8 +12,27 @@
   -webkit-box-sixing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  font-size: 16px;
+  font-family:"Helvetica", sans-serif;
 }
 
+.container h1{
+    font-size: 3rem;
+
+}
+.container h2{
+    font-size: 2rem;
+}
+
+.container h3{
+    font-size: 1.25rem;
+}
+
+
+.container p {
+  font-size: 1rem;
+
+}
 /*navigation container*/
 .navcontainer {
   display: flex;
@@ -34,8 +57,8 @@
 
 .logo p {
   font-size: 1rem;
-  font-family: Helvetica,sans-serif;
   align-self: center;
+  text-transform: uppercase;
 }
 
 /*first half of company name*/
@@ -53,6 +76,11 @@
 .navmenu {
   margin-right: 1rem;
 }
+
+.navmenu a{
+  color: grey;
+}
+
 
 .navmenu li {
   display: inline-block;
@@ -110,8 +138,8 @@
 }
 
 .secondarycopy {
-  font-size: 1.75rem;
-  margin-bottom: 2rem;
+  font-size: 2rem;
+  margin-bottom: 1.75rem;
 }
 
 .tertiarycopy {
@@ -124,7 +152,6 @@
   padding-top:0.5rem;
   padding-bottom:0.5rem;
   background-color: black;
-  font-size: 1.75rem;
   text-align: center;
 }
 
@@ -161,7 +188,6 @@
 
 
 .twosectionleft,.foursectionleftvid h2 {
-  font-size: 1.25rem;
 }
 
 .twosecimage {
@@ -170,7 +196,6 @@
 }
 
 .twosectionleft h1 {
-  font-size: 2rem;
   padding-top:2rem;
   padding-bottom: 1.5rem;
 }
@@ -200,8 +225,7 @@
   border: 1px solid black;
 }
 
-.twosectionrightrows h1{
-  font-size: 48px;
+.twosectionrightrows h2{
   padding: 2rem 0rem 2resm 0rem;
   font-weight:bold;
 }
@@ -211,31 +235,6 @@
   display:flex;
 
   height: 100%;
-}
-
-.campusinformation h1{
-  font-size: 2rem;
-}
-
-.campusinfocopy {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 1.5rem;
-}
-
-.campusinfocopy p {
-  font-size: 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
-.campusinfocopy h1{
-  font-size: 2rem;
-}
-
-.campusinfocopy a {
-  text-decoration: none;
 }
 
 .campusinfophoto {
@@ -249,6 +248,32 @@
   background-size: cover;
   padding: 1rem;
 }
+
+.campusinfocopy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 1.5rem;
+}
+
+.campusinfocopy p {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.campusinfocopy a {
+  text-decoration: none;
+}
+
+#lecture {
+  background-color: lightgrey;
+}
+
+#designprototype {
+  background-color: lightgrey;}
+
+
+
 
 /* thrid section (online learning) container*/
 
@@ -268,7 +293,6 @@
 }
 
 .threesection h1{
-  font-size: 48px;
   padding: 2rem 0rem 2rem 0rem;
   font-weight:bold;
 }
@@ -311,14 +335,12 @@
   padding-bottom: 1.5rem;
 }
 
-.coursedescription h1{
-  font-size: 2rem;
+.coursedescription h2{
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-.coursedescription h2{
-  font-size: 1rem;
+.coursedescription p {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
@@ -430,7 +452,6 @@
   width:auto;
 }
 
-
 /* removes campaus photo*/
 .campusinfophoto{display:none;}
 
@@ -438,22 +459,22 @@
 
 .threesectionmob{
   display: flex;
-  *width:100%;
+  width:100%;
   background-color: lightgrey;
+  border: 1px solid black;
+  margin-bottom: 2rem;
 }
 
 .threesectionmobile {
   display: flex;
   flex-direction: column;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin:0rem 1rem 2rem 1rem;
   width: 100%;
 }
 
 .threesectionmobile h1{
   display: flex;
   justify-content: center;
-  font-size: 2rem;
   width: 100%;
   font-weight:bold;
   padding-top: 2rem;
@@ -462,13 +483,8 @@
 
 .threesectionmobile h2{
   display: flex;
-  justify-content: center;
-  width: 100%;
-  font-size: 1.5rem;
-  font-weight:bold;
   border: 1px solid black;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem 0rem 1rem 1rem;
   background-color: grey;
   margin-top: 0.5rem;
   margin-bottom:0.5rem;
@@ -569,20 +585,21 @@
   display:flex;
   width:100%;
   background-color: lightgrey;
+  border: 1px solid black;
+  padding-bottom: 1rem;
+  height: 100%;
 }
 
 .threesectionmobile {
   display: flex;
   flex-direction: column;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin:0rem 1rem 2rem 1rem;
   width: 100%;
 }
 
 .threesectionmobile h1{
   display: flex;
   justify-content: center;
-  font-size: 2rem;
   width: 100%;
   font-weight:bold;
   padding-top: 2rem;
@@ -591,13 +608,8 @@
 
 .threesectionmobile h2{
   display: flex;
-  justify-content: center;
-  width: 100%;
-  font-size: 1.5rem;
-  font-weight:bold;
   border: 1px solid black;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding: 1rem 0rem 1rem 1rem;
   background-color: grey;
   margin-top: 0.5rem;
   margin-bottom:0.5rem;
