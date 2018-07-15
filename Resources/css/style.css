@@ -413,15 +413,10 @@
 
 }
 
+/* mobile responsive between mobile and desktop*/
 @media only screen and (min-width: 470px) and (max-width: 895px) {
-#nomobile {
-  display: inline-block;
-  color: white;
-  margin-right: 0.5rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
 
+/* display header secion column on smaller screens"*/
 .onesection {
   display: flex;
   flex-direction: column;
@@ -433,16 +428,17 @@
 .onesectioncolumns {
   display: flex;
   width:auto;
-  height: 50%;
 }
 
+
+/* removes campaus photo*/
 .campusinfophoto{display:none;}
 
 .threesection {display: none;}
 
 .threesectionmob{
-  display:flex;
-  width:100%;
+  display: flex;
+  *width:100%;
   background-color: lightgrey;
 }
 
@@ -486,19 +482,12 @@
 
 }
 
+/* mobile*/
+
+
 @media only screen and (max-width: 470px) {
 
-  .nomobile {
-      display:none;
-  }
-
-  #nomobile{
-    display: none;
-  }
-
-  #copyright{display: none;}
-
-  .mobilemenu {
+.mobilemenu {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -506,14 +495,13 @@
     height: 4rem;
     background-color: white;
     border: 1px solid black;
-
   }
 
-  #mobilelefticon{
+#mobilelefticon{
     margin-left: 1.5rem;
   }
 
-  #mobilerighticon{
+#mobilerighticon{
     margin-right: 1.5rem;
   }
 
@@ -574,8 +562,6 @@
   margin-left: 1rem;
   margin-bottom: 4rem;
 }
-
-
 
 .threesection {display: none;}
 
@@ -645,7 +631,6 @@
   padding-bottom: 1rem;
   padding-left: 1rem;
 }
-
 
 .navcontainerfooter {display:none;}
 .navcontainer {display:none;}
