@@ -140,8 +140,12 @@ a{
 }
 
 .secondarycopy {
-  font-size: 2rem;
   margin-bottom: 1.75rem;
+  font-weight:normal;
+}
+
+.secondarycopy h2{
+  font-weight:normal;
 }
 
 .tertiarycopy {
@@ -529,6 +533,11 @@ a{
     margin-right: 1.5rem;
   }
 
+.onesectionrightcopy {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  }
+
 .onesection{
     display:none;}
 
@@ -536,7 +545,9 @@ a{
       flex-direction: column;
       margin-left: 1rem;
       margin-right:1rem;
-      margin-bottom: 2rem;
+      padding-bottom: 2rem;
+      background-color: lightgrey;
+      width: 100%;
 }
 
 .headlinecopy{
@@ -641,7 +652,6 @@ a{
   display: flex;
   justify-content: flex-start;
   margin-top: 1.5rem;
-  border: 1px solid black;
   width: 100%;
   height: 4rem;
 
