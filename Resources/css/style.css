@@ -21,6 +21,7 @@
   border: 1px solid grey;
 }
 
+/*navigation container*/
 .logo {
   display: flex;
 }
@@ -49,6 +50,10 @@
 
 /*navigation menu*/
 
+.navmenu {
+  margin-right: 1rem;
+}
+
 .navmenu li {
   display: inline-block;
   color: grey;
@@ -61,9 +66,7 @@
   display:none;
 }
 
-.navmenu{
-  margin-right: 1rem;
-}
+/*header section*/
 
 .onesection {
   display: flex;
@@ -75,6 +78,7 @@
   display: none;
 }
 
+/*left column container*/
 .onesectioncolumns {
   display: flex;
   width:60%;
@@ -92,7 +96,7 @@
   overflow: hidden;
 }
 
-
+/*right column container*/
 .onesectionrightcopy {
   display: flex;
   flex-direction: column;
@@ -124,7 +128,7 @@
   text-align: center;
 }
 
-/* Second Section*/
+/* Second Section (Campus Information)*/
 
 .twosection {
   display: flex;
@@ -144,6 +148,7 @@
   display: flex;
 }
 
+/* Second Section (campus information) left column container*/
 .twosectionleft {
   display: flex;
   flex-direction: column;
@@ -154,17 +159,8 @@
   margin-right:1.5rem;
 }
 
-.twosectionleftvid {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 60%;
-  height: 100%;
-  margin-left:1.5rem;
-  margin-right:1.5rem;
-}
 
-.twosectionleft,.twosectionleftvid h2 {
+.twosectionleft,.foursectionleftvid h2 {
   font-size: 1.25rem;
 }
 
@@ -186,6 +182,7 @@
   background-size: contain;
 }
 
+/* Second Section (campus information) right column container*/
 .twosectionright {
   display:flex;
   flex-direction: column;
@@ -208,6 +205,7 @@
   font-weight:bold;
 }
 
+/* campus information container*/
 .campusinformation {
   display:flex;
   border: 1px solid black;
@@ -250,6 +248,8 @@
   background-size: cover;
   padding: 1rem;
 }
+
+/* thrid section (online learning) container*/
 
 .threesection {
   display: flex;
@@ -322,11 +322,23 @@
   padding-bottom: 0.5rem;
 }
 
+/* Fourth Section (For companies) Container*/
 .fourthsection {
   width:100;
 }
 
+/* Fourth Section Left (For companies) Container*/
 .fourthsectionmobile{display: none;}
+
+.foursectionleftvid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+  height: 100%;
+  margin-left:1.5rem;
+  margin-right:1.5rem;
+}
 
 #fourheader {
   font-size: 3rem;
@@ -373,6 +385,8 @@
   width: 100%;
 }
 
+/* Footer*/
+
 .mobilefooter {
   display:none;
 }
@@ -387,14 +401,13 @@
 
 }
 
+/* Copyright*/
 
 #copyright {
   display: flex;
   margin-left:1.5rem;
   margin-top: 1rem;
 }
-
-
 
 #copyrightmobile {
   display: none;
@@ -493,15 +506,15 @@
 .ctacopy{
   background-color: grey;
 }
+
 .onesectioncolumnsmobile{
     display: flex;
-  }
+ }
 
 .onesectioncolumnsmobile img{
   width: 100%;
   height: 50%;
-
-  }
+}
 
 .twosectionleft{
   display: none;
@@ -592,7 +605,6 @@
 .mobilefooter {
   display: flex;
   justify-content: flex-start;
-  border: 1px solid black;
   margin-left:1rem;
   margin-right:1rem;
   padding-bottom: 1rem;
@@ -605,11 +617,8 @@
 }
 
 
-
 .navcontainerfooter {display:none;}
 .navcontainer {display:none;}
-
-
 
 
 }
