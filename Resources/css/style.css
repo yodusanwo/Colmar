@@ -324,16 +324,20 @@
 }
 
 /* Fourth Section (For companies) Container*/
-.foursection{
-  display:flex;
-}
 
-.fourthsection {
-  width:100;
-}
+.fourthsectionmobile {display:none;}
 
 /* Fourth Section Left (For companies) Container*/
-.fourthsectionmobile{display: none;}
+.foursection {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  -webkit-box-sixing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 .foursectionleftvid {
   display: flex;
@@ -350,16 +354,6 @@
   padding: 2rem 0rem 0rem 0rem;
   font-weight:bold;
   text-align: center;
-}
-
-.foursection {
-  display: flex;
-  width: 100%;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  -webkit-box-sixing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
 }
 
 .foursecimage p {
@@ -586,14 +580,13 @@
 }
 
 
-}
-.foursection{
+.fourthsectionmobile{
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 
-.fourthsection{display: none;}
+.foursection{display:none;}
 
 #fourheader{
   margin-bottom: 1rem;
