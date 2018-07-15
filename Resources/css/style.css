@@ -1,9 +1,4 @@
 
-html{
-  font-size: 32px;
-}
-
-
 /*main flex container*/
 .container {
   display: flex;
@@ -24,13 +19,7 @@ html{
   width: 100%;
   height: 4rem;
   background-color: white;
-  border: 1px solid black;
 }
-
-.mobilefooter{
-  display:none;
-}
-
 
 .logo {
   display: flex;
@@ -48,16 +37,17 @@ html{
   align-self: center;
 }
 
-
+/*first half of company name*/
 #logo1 {
   color: black;
 }
 
+/*second half of company name*/
 #logo2 {
   color: grey;
 }
 
-/*navigation*/
+/*navigation menu*/
 
 .navmenu li {
   display: inline-block;
@@ -65,7 +55,6 @@ html{
   margin-right: 0.5rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  border: 1px solid black;
 }
 
 .mobilemenu {
@@ -89,7 +78,7 @@ html{
 .onesectioncolumns {
   display: flex;
   width:60%;
-  margin:24px;
+  margin: 2rem 1.5rem 2rem 1.5rem;
 }
 
 .onesectioncolumnsmobile{
@@ -140,7 +129,8 @@ html{
 .twosection {
   display: flex;
   width: 100%;
-  margin-top: 32px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   -webkit-box-sixing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -160,8 +150,8 @@ html{
   justify-content: space-between;
   width: 60%;
   height: 100%;
-  margin-left:24px;
-  margin-right:24px;
+  margin-left:1.5rem;
+  margin-right:1.5rem;
 }
 
 .twosectionleftvid {
@@ -170,8 +160,8 @@ html{
   justify-content: space-between;
   width: 60%;
   height: 100%;
-  margin-left:24px;
-  margin-right:24px;
+  margin-left:1.5rem;
+  margin-right:1.5rem;
 }
 
 .twosectionleft,.twosectionleftvid h2 {
@@ -185,8 +175,8 @@ html{
 
 .twosectionleft h1 {
   font-size: 2rem;
-  padding-top:32px;
-  padding-bottom: 24px;
+  padding-top:2rem;
+  padding-bottom: 1.5rem;
 }
 
 .twosecimage img {
@@ -228,7 +218,7 @@ html{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 100%;
+  margin-left: 1.5rem;
 }
 
 .campusinfocopy p {
@@ -248,36 +238,28 @@ html{
 .campusinfophoto {
   width:35%;
   overflow: hidden;
-
 }
 
 .campusinfophoto img {
   width:100%;
   overflow: hidden;
   background-size: cover;
-  padding: 16px;
+  padding: 1rem;
 
 }
 
-.campusinfocopy {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-left: 32px;
-  width: 65%;
-}
+
 
 .threesection {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  border: 10px solid black;
   background-color: grey;
   -webkit-box-sixing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding-bottom: 32px;
+  padding-bottom: 2rem;
 }
 
 .threesectionmobile {
@@ -286,14 +268,14 @@ html{
 
 .threesection h1{
   font-size: 48px;
-  padding: 32px 0px 32px 0px;
+  padding: 2rem 0rem 32rem 0rem;
   font-weight:bold;
 }
 
 
 .twosectionrightrow h1{
   font-size: 48px;
-  padding: 32px 0px 32px 0px;
+  padding: 2rem 0rem 2resm 0rem;
   font-weight:bold;
 }
 
@@ -303,7 +285,7 @@ html{
 ` flex-direction: column;*/
   width: 33%;
   background-color:white;
-  margin: 16px;
+  margin: 1rem;
   overflow: hidden;
   margin-top: 0rem;
 }
@@ -318,20 +300,20 @@ html{
   display: flex;
   flex-direction: column;
   justify-content:center;
-  margin-left:16px;
+  margin-left:1rem;
   background-color: white;
 }
 
 .coursedescription h1{
-  font-size: 32px;
-  padding-top: 16px;
+  font-size: 2rem;
+  padding-top: 1rem;
 
 }
 
 .coursedescription h2{
-  font-size: 24px;
-  padding-bottom: 8px;
-  padding-top: 8px;
+  font-size: 1.5rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
   color: grey;
 }
 
@@ -349,8 +331,8 @@ html{
 .fourthsectionmobile{display: none;}
 
 #fourheader {
-  font-size: 48px;
-  padding: 32px 0px 0px 0px;
+  font-size: 3rem;
+  padding: 2rem 0rem 0rem 0rem;
   font-weight:bold;
   text-align: center;
 }
@@ -359,27 +341,27 @@ html{
 .onerow {
   display:flex;
   justify-content: center;
-  width: calc(100% - 112px);
+  width: calc(100% - 7rem);
 }
 
 .foursection {
   display: flex;
   width: 100%;
-  margin-top: 32px;
+  margin-top: 2rem;
   -webkit-box-sixing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
 .foursecimage p {
-  font-size: 24px;
+  font-size: 1.5rem;
 
 }
 
 .foursecimage h1{
   font-size: 2rem;
-  padding-top:32px;
-  padding-bottom: 24px;
+  padding-top:2rem;
+  padding-bottom: 2rem;
 }
 
 .foursecimage h2{
@@ -389,14 +371,18 @@ html{
 .foursecimage {
   display: flex;
   flex-direction: column;
-  margin-top: 0px;
+  margin-top: 0rem;
 }
 
 .foursecimage img{
   overflow: hidden;
-  margin-top: 0px;
+  margin-top: 0rem;
   background-repeat: no-repeat;
   width: 100%;
+}
+
+.mobilefooter {
+  display:none;
 }
 
 #copyright {
@@ -476,14 +462,15 @@ html{
     height: 4rem;
     background-color: white;
     border: 1px solid black;
+
   }
 
-  #test{
-    margin-left: 24px;
+  #mobilelefticon{
+    margin-left: 1.5rem;
   }
 
-  #test1{
-    margin-right: 24px;
+  #mobilerighticon{
+    margin-right: 1.5rem;
   }
 
 .onesection{
@@ -491,17 +478,16 @@ html{
 
 .mobileheader{display:flex;
       flex-direction: column;
-      margin-left: 16px;
-      margin-right:16px;
-      margin-bottom: 32px;
+      margin-left: 1rem;
+      margin-right:1rem;
+      margin-bottom: 2rem;
 }
 
 .headlinecopy{
-    margin-top: 32px;
+    margin-top: 2rem;
 }
 
 .ctacopy{
-  /*margin-bottom: 32px;*/
   background-color: grey;
 }
 .onesectioncolumnsmobile{
@@ -545,10 +531,11 @@ html{
 }
 
 .campusinfocopy {
-  margin-top: 32px;
-  margin-bottom: 64px;
+
   width: 100%;
+
 }
+
 .threesection {display: none;}
 
 .threesectionmob{
