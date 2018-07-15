@@ -5,7 +5,6 @@
   align-items: center;
   flex-direction: column;
   width: 100%;
-  border: 0.3125rem solid orange;
   -webkit-box-sixing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -454,7 +453,7 @@
 
   #copyrightmobile {
     display: flex;
-      border: 1px solid black;
+    border: 1px solid black;
 
   }
 
@@ -514,29 +513,25 @@
 .twosectionmobile{
   display: flex;
   flex-direction: column;
-  margin-top: 16px;;
+  margin-top: 1rem;
   background-color: lightblue;
 }
 
 .twosectioncolumns{
-  margin-right:16px;
-  margin-left:16px;
-  margin-top: 16px;
-  margin-bottom: -32px
-
+  margin: 1rem 1rem -2rem 1rem;
 }
 
-.campusphotomobile{
 
-}
 .campusphotoomobile img{
   overflow: hidden;
   width: 100%;
+  padding-bottom: 1rem;
 }
 
 .campusinfocopy {
-
   width: 100%;
+  margin-left: 1rem;
+  margin-bottom: 4rem;
 
 }
 
@@ -551,32 +546,34 @@
 .threesectionmobile {
   display: flex;
   flex-direction: column;
-  margin-top: 16px;
-  margin-left: 16px;
-  margin-right: 16px;
+  margin-left: 1rem;
+  margin-right: 1rem;
   width: 100%;
 }
 
 .threesectionmobile h1{
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
   width: 100%;
-  font-size: 32px;
   font-weight:bold;
   border: 1px solid black;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  background-color: grey;
-  margin-top: 8px;
-  margin-bottom:8px;
-
-
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 
-.threesectionmobile p{
-  font-size: 32px;
+.threesectionmobile h2{
+  display: flex;
+  justify-content: center;
   width: 100%;
-  margin: 50px;
+  font-size: 1.5rem;
   font-weight:bold;
   border: 1px solid black;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: grey;
+  margin-top: 0.5rem;
+  margin-bottom:0.5rem;
 }
 
 .fourthsectionmobile{
@@ -589,25 +586,30 @@
 .fourthsection{display: none;}
 
 #fourheader{
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 
 .mobilefooter {
   display: flex;
   justify-content: flex-start;
   border: 1px solid black;
-  margin-left:16px;
-  margin-right:16px;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  margin-top: 24px;
+  margin-left:1rem;
+  margin-right:1rem;
+  padding-bottom: 1rem;
+  margin-top: 1.5rem;
 }
 
-.mobilefooter p{
-  padding-top:16px;
-  padding-bottom: 16px;
+.mobilefooter p {
+  padding-top:1rem;
+  padding-bottom: 1rem;
 }
 
+
+
+.navcontainerfooter {display:none;}
 .navcontainer {display:none;}
+
+
+
 
 }
